@@ -27,8 +27,8 @@ This project is a Medical ChatBOT designed to provide accurate and reliable medi
 1. **Clone the repository**:
 
     ```sh
-    git clone https://github.com/Roksana18cse04/Medical_Chat_BOOT.git
-    cd medical-chatbot
+    git clone https://github.com/aidevshakil/Medical_Chat_Bot.git
+    cd Medical_Chat_Bot
     ```
 
 2. **Create and activate a virtual environment**:
@@ -72,8 +72,11 @@ This project is a Medical ChatBOT designed to provide accurate and reliable medi
 ## Project Structure
 
 - `Medical_ChatBOOT.py`: Main script to run the Streamlit app.
+- `create_memory_for_llm.py`: Script to load PDF data and create the FAISS vector store.
+- `connect_memory_with_llm.py`: Script to connect the vector store with the LLM for query processing.
 - `requirements.txt`: List of dependencies.
 - `.env`: Environment variables file (not included in version control).
+- `data/`: Directory containing source PDF medical documents.
 - `vectorstore/`: Directory containing the FAISS vector store.
 - `.gitignore`: Git ignore file to exclude unnecessary files from version control.
 
